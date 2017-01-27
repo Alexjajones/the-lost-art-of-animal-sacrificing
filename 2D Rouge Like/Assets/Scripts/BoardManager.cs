@@ -51,7 +51,7 @@ public class BoardManager : MonoBehaviour
         // Creates a list of potenial places to put wall, pickups or enemies.
         for (int x = 1; x < Columns - 1; x++)
         {
-            for (int y = 1; x < Rows - 1; y++)
+            for (int y = 1; y < Rows - 1; y++)
             {
                 _gridPositions.Add(new Vector3(x, y, 0f));
             }
